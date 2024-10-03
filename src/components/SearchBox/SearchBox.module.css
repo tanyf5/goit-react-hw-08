@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 30px;
+    position: relative;
+}
+  
+.faSearch {
+    position: absolute;
+    display: flex;
+    top: 42px;
+    left: 15px;
+    color: #508afb;
+    align-items: center;
+}
+  
+.container input {
+    width: 100%;
+    outline: none;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 12px 35px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: border 0.2s ease;
+    color: #172640;
+    caret-color: #a1a8b4;
+    border: 1px solid #c5cad1;
+    box-shadow: rgba(58, 61, 64, 0.06) 0px 10px 20px 10px;
+}
+  
+.container input::placeholder {
+    font-size: 14px;
+    color: #a1a8b4;
+}
+  
+.container label {
+    text-align: start;
+    padding-left: 35px;
+}

@@ -1,0 +1,12 @@
+.loggedOut {
+    display: flex;
+    justify-content: center;
+}
+
+.loggedIn {
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+}

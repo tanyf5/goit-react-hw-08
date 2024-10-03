@@ -1,0 +1,28 @@
+.notFound img {
+    margin: 20px auto 0px;
+    width: 400px;
+}
+  
+.notFound p {
+    color: rgb(241, 170, 158);
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 0 20px;
+    max-width: 390px;
+    font-size: 18px;
+}
+  
+.goBack {
+    color: rgb(170, 170, 170);
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: 1px solid rgb(137, 137, 137);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  
+    &:hover {
+      background: rgb(71, 71, 71);
+      color: #1c0fd7;
+    }
+}

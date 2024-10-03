@@ -1,0 +1,13 @@
+.contacts {
+    position: relative;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+  
+.contactForm {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.appBarNav {
+    display: flex;
+    justify-content: center;
+  
+    li {
+      padding: 10px;
+    }
+}
+  
+.link {
+    transition: all 0.2s ease;
+    &:hover {
+      color: #6167ff;
+    }
+}
+  
+.active {
+    color: #6167ff;
+}

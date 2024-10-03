@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+  
+.app {
+    min-width: 480px;
+    min-height: 780px;
+    border: 1px solid #c5cad1;
+    color: #172640;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(58, 61, 64, 0.372) 0px 10px 20px 10px;
+}
+  
+.title {
+    margin: 0;
+    padding: 10px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.5s;
+}

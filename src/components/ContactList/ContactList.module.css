@@ -1,0 +1,27 @@
+.contactsWrapper {
+    width: 100%;
+}
+  
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+  
+.added {
+    color: #1fc01f;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+  
+.deleted {
+    color: #ea3535;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+  
+.notFound,
+.error {
+    font-size: 16px;
+    color: #ea3535;
+}

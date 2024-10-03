@@ -1,0 +1,95 @@
+.formWrapper {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #c5cad1;
+    border-radius: 16px;
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.formHeading {
+    max-width: 320px;
+    font-size: 18px;
+    color: #3578ea;
+    margin: 0 auto 20px;
+}
+  
+.form button {
+    color: #ffffff;
+    background-color: #3578ea;
+    border-radius: 25px;
+    width: 40%;
+    margin: 10px auto 0;
+    transition: color 0.2s ease;
+    padding: 10px 15px;
+    outline: none;
+}
+  
+.form button:hover,
+.form button:focus {
+    background-color: #6167ff;
+}
+  
+.emailWrap,
+.passwordWrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  
+.mdEmail,
+.riLockPasswordFill {
+    display: flex;
+    position: absolute;
+    top: 39px;
+    left: 15px;
+    color: #508afb;
+    align-items: center;
+}
+  
+.form label {
+    display: block;
+    text-align: start;
+    padding-left: 35px;
+    align-items: center;
+}
+  
+.form input {
+    width: 100%;
+    outline: none;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: border 0.2s ease;
+    caret-color: #a1a8b4;
+    border: 1px solid #c5cad1;
+    box-shadow: rgba(58, 61, 64, 0.06) 0px 10px 20px 10px;
+    margin-bottom: 15px;
+}
+  
+.form input::placeholder {
+    font-size: 14px;
+    color: #a1a8b4;
+}
+  
+.emailError,
+.passwordError {
+    left: 80px;
+    font-size: 16px;
+    position: absolute;
+    color: #ea3535;
+}
+  
+.passwordError {
+    left: 112px;
+}
+  
+.requestError {
+    color: #ea3535;
+    margin-top: 10px;
+}

@@ -4,7 +4,7 @@
 }
   
 .notFound p {
-    color: rgb(241, 170, 158);
+    color: rgb(194, 194, 194);
     margin-top: 30px;
     font-size: 20px;
     padding: 0 20px;
@@ -23,6 +23,6 @@
   
     &:hover {
       background: rgb(71, 71, 71);
-      color: #1c0fd7;
+      color: #111111;
     }
 }

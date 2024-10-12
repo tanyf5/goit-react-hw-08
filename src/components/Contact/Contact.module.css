@@ -7,12 +7,13 @@
     border-radius: 10px;
     padding: 5px 15px;
     min-height: 70px;
+    justify-content: center;
 }
   
 .userIcon {
     display: flex;
     padding-right: 20px;
-    color: #508afb;
+    color: #4b4b4b;
     align-items: center;
 }
   
@@ -37,7 +38,7 @@
 }
   
 .contact p > svg {
-    color: #508afb;
+    color: #4d4d4d;
 }
   
 .button {

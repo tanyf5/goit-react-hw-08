@@ -10,10 +10,10 @@
 .link {
     transition: all 0.2s ease;
     &:hover {
-      color: #6167ff;
+      color: #2d36d7;
     }
 }
   
 .active {
-    color: #6167ff;
+    color: #2d36d7;
 }

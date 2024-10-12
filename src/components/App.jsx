@@ -30,7 +30,7 @@ export default function App() {
     <div className="app">
       <Link to="/">
         <h1 className="title">
-          <RiContactsBook3Fill /> Phonebook
+          Phonebook
         </h1>
       </Link>
 

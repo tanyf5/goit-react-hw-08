@@ -9,17 +9,7 @@
 }
   
 .backgroundUser {
-    background: linear-gradient(
-      210deg,
-      #508afb 10%,
-      #6167ff 30%,
-      #8a61ff 60%,
-      #8f00ff 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+    color: #111111;
 }
   
 .userMenu button {

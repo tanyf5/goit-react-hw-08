@@ -13,13 +13,13 @@
 .formHeading {
     max-width: 320px;
     font-size: 18px;
-    color: #3578ea;
+    color: #4b4b4b;
     margin: 0 auto 20px;
 }
   
 .form button {
     color: #ffffff;
-    background-color: #3578ea;
+    background-color: #0dae1d;
     border-radius: 25px;
     width: 40%;
     margin: 10px auto 0;
@@ -30,7 +30,7 @@
   
 .form button:hover,
 .form button:focus {
-    background-color: #6167ff;
+    background-color: #0dae1d;
 }
   
 .emailWrap,
@@ -46,7 +46,7 @@
     position: absolute;
     top: 39px;
     left: 15px;
-    color: #508afb;
+    color: #4b4b4b;
     align-items: center;
 }
   

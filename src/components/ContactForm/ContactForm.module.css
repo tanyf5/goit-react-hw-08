@@ -33,7 +33,7 @@
   
 .form button {
     color: #ffffff;
-    background-color: #3578ea;
+    background-color: #0dae1d;
     border-radius: 25px;
     width: 40%;
     margin: 10px auto 0;
@@ -44,7 +44,7 @@
   
 .form button:hover,
 .form button:focus {
-    background-color: #6167ff;
+    background-color: #0dae1d;
 }
   
 .nameWrap {
@@ -59,7 +59,7 @@
     position: absolute;
     top: 39px;
     left: 15px;
-    color: #508afb;
+    color: #525252;
     align-items: center;
 }
   
@@ -89,6 +89,6 @@
     font-size: 16px;
     margin-top: 12px;
     position: absolute;
-    color: #1fc01f;
+    color: #0dae1d;
     transform: translate(-50%, -50%);
 }
